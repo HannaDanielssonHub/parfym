@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6f0;
+}
+
+h1, h2 {
+    color: #cc0052;
+}
+
+header {
+    background-color: #ff99cc;
+    color: white;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar nav ul li {
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.carousel {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel .slides img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Product Section */
+.products {
+    padding: 50px;
+    text-align: center;
+    background-color: #ffe6f0;
+}
+
+.products h2 {
+    margin-bottom: 40px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    width: 30%;
+    background-color: #fff;
+    border: 2px solid #ff99cc;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product h3 {
+    margin: 20px 0 10px;
+    color: #cc0052;
+}
+
+.product p {
+    color: #993366;
+    margin-bottom: 15px;
+}
+
+.product button {
+    background-color: #ff99cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product button:hover {
+    background-color: #ff66b2;
+}
+
+/* About Section */
+.about {
+    padding: 50px;
+    background-color: #ffccdf;
+    text-align: center;
+}
+
+.about h2 {
+    color: #cc0052;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ff99cc;
+}
+
+.contact form button {
+    padding: 10px 20px;
+    background-color: #ff99cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact form button:hover {
+    background-color: #ff66b2;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #ff99cc;
+    color: white;
+}
